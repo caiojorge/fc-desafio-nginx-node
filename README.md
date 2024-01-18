@@ -1,10 +1,10 @@
 # Como executar o projeto?
-make up (sobe os 3 serviços)
-make down (desliga tudo)
-docker rmi $(docker images -q) -f (apaga todas as imagens)
-http://localhost (para ver o texto fullcycle e o nome dos usuários)
+* make up (sobe os 3 serviços)
+* make down (desliga tudo)
+* docker rmi $(docker images -q) -f (apaga todas as imagens)
+* http://localhost (para ver o texto fullcycle e o nome dos usuários)
 
-* Observações: 
+# Observações: 
 o diretorio /mysql será criado automaticamente no make up
 o script de criação de tabela só funciona na primeira execução
 o usuário é cadastrado apenas no momento em que o server é executado
