@@ -4,6 +4,13 @@ make down (desliga tudo)
 docker rmi $(docker images -q) -f (apaga todas as imagens)
 http://localhost (para ver o texto fullcycle e o nome dos usuários)
 
+* Observações: 
+o diretorio /mysql será criado automaticamente no make up
+o script de criação de tabela só funciona na primeira execução
+o usuário é cadastrado apenas no momento em que o server é executado
+o node espera pelo sql usando dockerize
+não desliguei a porta 3000, então, é possível acessar por ela tbm.
+
 # Desafio
 
 Nesse desafio você colocará em prática o que aprendemos em relação a utilização do nginx como proxy reverso. 
